@@ -1,0 +1,97 @@
+{
+    "REACTION INFORMATION:  PATIENT INITIALS 1a. COUNTRY 2. DATE OF BIRTH 2a. AGE 3. SEX 3a. WEIGHT 4-6 REACTION ONSET 8-12 CHECK ALL": [
+        "(first, last) CANADA Day Month Year 44 Unk Day Month Year APPROPRIATE TO",
+        "PRIVACY 1978 Years Female JUN 2022 ADVERSE REACTION",
+        "7 + 13 DESCRIBE REACTION(S) (including relevant tests/lab data)",
+        "Event Verbatim [PREFERRED TERM] (Related symptoms if any separated by commas) F PATIENT DIED",
+        "Other Serious Criteria: Medically Significant",
+        "INVOLVED OR",
+        "her skin is very sensitive [Sensitive skin] PROLONGED INPATIENT",
+        "secondary diagnosis of HS/ MD was concerned about the on-going Hidradenitis Suppurativa abscesses that HOSPITALISATION",
+        "are forming [Drug ineffective]",
+        "primary diagnosis as Plaque Psoriasis/ Physician has sent a new prescription with 160 mg week 0, 80 mg INVOLVED PERSISTENT",
+        "OR SIGNIFICANT",
+        "week 2 followed by 40 mg weekly starting week 4 [Off label use] DISABILITY OR",
+        "primary diagnosis as Plaque Psoriasis/ Physician has sent a new prescription with 160 mg week 0, 80 mg INCAPACITY",
+        "week 2 followed by 40 mg weekly starting week 4 [Off label use]",
+        "LIFE",
+        "A (Continued on Additional Information Page) THREATENING",
+        "II.SUSPECT DRUG(S) INFORMATION"
+    ],
+    "SUSPECT DRUG(S) INFORMATION:  SUSPECT DRUG(S) (include generic name) 20. DID REACTION": [
+        "#1 ) Abrilada (ADALIMUMAB) Solution for injection in pre-filled pen ABATE AFTER STOPPING",
+        "DRUG?",
+        "(Continued on Additional Information Page)"
+    ],
+    "SUSPECT DRUG(S) INFORMATION:  DAILY DOSE(S) 16. ROUTE(S) OF ADMINISTRATION": [
+        "#1 ) week 0 dose (Continued on Additional Information Page) #1 ) Subcutaneous YES NO NA"
+    ],
+    "SUSPECT DRUG(S) INFORMATION:  INDICATION(S) FOR USE 2REACTION INFORMATION:  DID REACTION": [
+        "#1 ) Plaque Psoriasis (Psoriasis) R R RE EA INP TP RE OA DR U A CF TT IOER N?",
+        "(Continued on Additional Information Page)"
+    ],
+    "SUSPECT DRUG(S) INFORMATION:  THERAPY DATES(from/to) 19. THERAPY DURATION": [
+        "#1 ) 15-JUN-2022 / 15-JUN-2022 #1 ) 1 day YES NO NA",
+        "III.CONCOMITANT DRUG(S) AND HISTORY"
+    ],
+    "CONCOMITANT DRUG(S) AND HISTORY:  CONCOMITANT DRUG(S) AND DATES OF ADMINISTRATION (exclude those used to treat reaction)": [
+        "#1 ) BENZALKONIUM (BENZALKONIUM) ; Ongoing",
+        "#2 ) BIMEKIZUMAB (BIMEKIZUMAB) ; Ongoing",
+        "#3 ) CYCLOSPORINE (CICLOSPORIN) ; Ongoing",
+        "D"
+    ],
+    "ADDITIONAL INFORMATION:  OTHER RELEVANT HISTORY. (e.g. diagnostics, allergies, pregnancy with last month of period, etc.)": [
+        "From/To Dates Type of History / Notes Description",
+        "Unknown Relevant Med History Hidradenitis suppurativa (Hidradenitis)",
+        "secondary diagnosis",
+        "Unknown Relevant Med History Plaque psoriasis (Psoriasis)",
+        "Primary diagnosis",
+        "IV.MANUFACTURER INFORMATION",
+        "24a. NAME AND ADDRESS OF MANUFACTURER 26. REMARKS",
+        "Pfizer Inc",
+        "Head Drug Safety Surveillance",
+        "219 East 42nd Street",
+        "New York, New York 10017 UNITED STATES",
+        "Phone: 212 733 5544",
+        "24b. MFR CONTROL NO. 25b. NAME AND ADDRESS OF REPORTER",
+        "NAME AND ADDRESS WITHHELD.",
+        "202200902755",
+        "NAME AND ADDRESS WITHHELD.",
+        "24c. DATE RECEIVED 24d. REPORT SOURCE",
+        "BY MANUFACTURER STUDY LITERATURE",
+        "NAME AND ADDRESS WITHHELD.",
+        "05-AUG-2022 HEALTH OTHER:Spontaneous",
+        "PROFESSIONAL NAME AND ADDRESS WITHHELD.",
+        "DATE OF THIS REPORT 25a. REPORT TYPE",
+        "10-AUG-2022 NAME AND ADDRESS WITHHELD.",
+        "INITIAL FOLLOWUP:",
+        "10-Aug-2022 02:00"
+    ],
+    "SUSPECT DRUG(S) INFORMATION:  DAILY DOSE(S); SUSPECT DRUG(S) INFORMATION:  THERAPY DATES (from/to);": [],
+    "SUSPECT DRUG(S) INFORMATION:  SUSPECT DRUG(S) (include generic name) 16. ROUTE(S) OF ADMIN SUSPECT DRUG(S) INFORMATION:  INDICATION(S) FOR USE 19. THERAPY DURATION": [
+        "#1 ) Abrilada (ADALIMUMAB) Solution for week 0 dose, then 40 mg Plaque Psoriasis (Psoriasis) 15-JUN-2022 /",
+        "injection in pre-filled pen; Regimen #1 every other week; Hidradenitis Suppurativa 15-JUN-2022;",
+        "Subcutaneous (Hidradenitis) 1 day",
+        "R",
+        "#1 ) Abrilada (ADALIMUMAB) Solution for 80 mg, week 0 dose Plaque Psoriasis (Psoriasis) 15-JUN-2022 /",
+        "injection in pre-filled pen; Regimen #2 Prefilled pen; Hidradenitis Suppurativa 15-JUN-2022;",
+        "Subcutaneous (Hidradenitis) 1 day",
+        "#1 ) Abrilada (ADALIMUMAB) Solution for 1 DF, Week 0 80mg, then Plaque Psoriasis (Psoriasis) 23-JUN-2022 /",
+        "injection in pre-filled pen; Regimen #3 40 mg every other week; Hidradenitis Suppurativa Unknown;",
+        "Subcutaneous (Hidradenitis) Unknown",
+        "#1 ) Abrilada (ADALIMUMAB) Solution for 1 DF (Week 0 160 mg, Plaque Psoriasis (Psoriasis) 23-JUN-2022 /",
+        "D",
+        "injection in pre-filled pen; Regimen #4 week 2 - 80mg, then 40 Hidradenitis Suppurativa Ongoing;",
+        "mg every week starting (Hidradenitis) Unknown",
+        "week 4 - Prefilled pen);",
+        "Subcutaneous"
+    ],
+    "ADDITIONAL INFORMATION:  OTHER RELEVANT HISTORY continued": [
+        "From/To Dates Type of History / Notes Description",
+        "Unknown Past Drug Event bimekizumab (BIMEKIZUMAB); Drug Reaction: Adverse reaction",
+        "(Adverse reaction)",
+        "Adverse reaction to bimekizumab (Bimzelx, anti-IL17A, anti-IL-17F, and anti-IL17AF",
+        "monoclonal antibody)",
+        "10-Aug-2022 02:00"
+    ]
+}
