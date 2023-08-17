@@ -1,5 +1,5 @@
 # from routes import temp
-from .routes.temp import Routes    
+from .routes.router import Routes    
 import uvicorn
 
 
