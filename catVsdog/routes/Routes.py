@@ -12,10 +12,13 @@ class Routes:
     app=FastAPI()
     
     
-    
+    # returning message in main route
     @app.get('/')
     def index():
         return {'message': 'Welcome to Cat vs Dog Prediction'}
+    
+    
+    # adding function which will take image as an input
     
     @app.post('/predicts')
     def AddImage(file: UploadFile= File(...)):
