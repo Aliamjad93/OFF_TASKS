@@ -1,7 +1,8 @@
-from fastapi import UploadFile, File, HTTPException
+#importing required modules
 from tensorflow import keras
 from fastapi.responses import JSONResponse
 import os
+import cv2
 
 
 
@@ -24,21 +25,23 @@ class FileUploadService:
             f.write(file.file.read())
         
     
-        
-        loaded_model = keras.models.load_model(r"C:\Users\farha\.spyder-py3\catVsdog\my_model.h5")
-    
-        
-        print(file_path)
+        #Load model to make predictions
+        loaded_model = keras.models.load_model(r"C:\Users\farha\.spyder-py3\Task1\catVsdog\my_model.h5")
         
         
-        import cv2
         
+        # reading image from the file path variable.
         img=cv2.imread(rf'{file_path}')
         
-        
+        # resizing image into 256,256 
         test_img=cv2.resize(img,(256,256))
         
-        
+        # Reshaping the test_img array to match the expected input shape of the model
+        # The original shape of test_img is (256, 256, 3), representing a single image with dimensions 256x256 and 3 color channels (RGB)
+        # The model expects a batch of images as input, so we reshape it to (1, 256, 256, 3)
+        # The first dimension (1) indicates that there is one image in the batch
+        # The second and third dimensions (256, 256) are the image dimensions
+        # The fourth dimension (3) represents the number of color channels (RGB)
         test_input=test_img.reshape((1,256,256,3))
         # print(test_input)
         
