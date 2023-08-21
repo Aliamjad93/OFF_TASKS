@@ -10,18 +10,24 @@ import pickle
 import warnings
 import numpy as np
 import random
+# Importing the 'load_dotenv' function from the 'dotenv' library
+from dotenv import load_dotenv
+# Importing the 'os' module for working with environment variables
+import os
 warnings.filterwarnings('ignore')
 
 class Controller:
     
     def __init__(self):
-        with open(r'C:\Users\farha\.spyder-py3\Task1\ChatBot\Controller\config.json') as config_file:
-            config = json.load(config_file)
+        # Load environment variables from .env file
+        load_dotenv(dotenv_path="C:/Users/farha/.spyder-py3/Task1/ChatBot/src.env")
         
-        self.model = load_model(config['model'])
-        self.intents = json.loads(open(config['intents']).read())
-        self.words = pickle.load(open(config['words'], 'rb'))
-        self.classes = pickle.load(open(config['classes'], 'rb'))
+        # Access the 'port' environment variable
+        
+        self.model = load_model(os.getenv("model"))
+        self.intents = json.loads(open(os.getenv("intents")).read())
+        self.words = pickle.load(open(os.getenv("words"), 'rb'))
+        self.classes = pickle.load(open(os.getenv("classes"), 'rb'))
         
         #Utility Methods
 
@@ -43,7 +49,7 @@ class Controller:
         # bag of words - matrix of N words, vocabulary matrix
     
         bag = [0]*len(self.words) 
-        #print(bag)
+        
     
         for s in sentence_words:  
             for i,w in enumerate(self.words):
