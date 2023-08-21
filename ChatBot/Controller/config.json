@@ -1,6 +1,0 @@
-{
-    "model": "C:/Users/farha/.spyder-py3/Task1/ChatBot/Controller/chatbot_model.h5",
-    "intents": "C:/Users/farha/.spyder-py3/Task1/ChatBot/Controller/intents.json",
-    "words": "C:/Users/farha/.spyder-py3/Task1/ChatBot/Controller/words.pkl",
-    "classes": "C:/Users/farha/.spyder-py3/Task1/ChatBot/Controller/classes.pkl"
-}
